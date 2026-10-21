@@ -1,8 +1,14 @@
 # Academic Mentorship Network
 
+## [Open the interactive network](https://eugene-shin-ds.github.io/mentorship-network/)
+
+**Click the link above to explore the network directly in your browser. No download or installation required.**
+
+Search for a person, filter mentor and trainee relationships, and zoom or drag to explore.
+
 **Created by Eugene Shin**
 
-[HTML visualization](index.html) · [R script that generates the HTML](build_network.R) · [Paper figure script](render_figure.py)
+[HTML source / download](index.html) · [R script that generates the HTML](build_network.R) · [Paper figure script](render_figure.py)
 
 Interactive visualization of recorded preceptor and trainee relationships, with role colors, gently scaled node sizes, search, filters, and navigation controls.
 
@@ -19,13 +25,6 @@ Interactive visualization of recorded preceptor and trainee relationships, with 
 ![Other connected components](images/mentorship-small-components.png)
 
 These are screen previews. Use the figure export script for the full resolution main figure.
-
-## Open the interactive network online
-
-After GitHub Pages is enabled, open:
-https://eugene-shin-ds.github.io/mentorship-network/
-
-Repository owner setup: **Settings → Pages → Deploy from a branch → main → / (root) → Save**. Until deployment completes, download `index.html` and open it locally.
 
 ## Why a network?
 
@@ -53,9 +52,9 @@ Role colors, sizes, and hover counts always describe the full retained dataset, 
 | [requirements.txt](requirements.txt) | Python plotting dependencies |
 | [.gitignore](.gitignore) | Exclude source workbooks, local environments, and generated figures |
 
-## View
+## View offline
 
-Download `index.html` and open it in a browser. The HTML contains the visualization dependencies and relationship data. It contains real names and mentorship relationships; choose repository visibility accordingly. GitHub source view does not run HTML. GitHub Pages hosting is a separate publishing step.
+Download `index.html` and open it in a browser. The HTML contains the visualization dependencies and relationship data. It contains real names and mentorship relationships; choose repository visibility accordingly. GitHub source view displays the file contents. Use the interactive network link at the top of this README to open the visualization online.
 
 ## Rebuild the HTML in R
 
