@@ -1,0 +1,9 @@
+*.xlsx
+*.xls
+.Rhistory
+.RData
+.Rproj.user/
+__pycache__/
+.venv/
+figures/
+.DS_Store
