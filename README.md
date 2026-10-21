@@ -6,6 +6,27 @@
 
 Interactive visualization of recorded preceptor and trainee relationships, with role colors, gently scaled node sizes, search, filters, and navigation controls.
 
+## Figure previews
+
+### Largest connected component
+190 people; labels for 34 people with at least three direct trainees.
+
+![Largest connected component](images/mentorship-main.png)
+
+### Other connected components
+36 components; all 127 names shown.
+
+![Other connected components](images/mentorship-small-components.png)
+
+These are screen previews. Use the figure export script for the full resolution main figure.
+
+## Open the interactive network online
+
+After GitHub Pages is enabled, open:
+https://eugene-shin-ds.github.io/mentorship-network/
+
+Repository owner setup: **Settings → Pages → Deploy from a branch → main → / (root) → Save**. Until deployment completes, download `index.html` and open it locally.
+
 ## Why a network?
 
 A person can have multiple preceptors and can later mentor others. A directed network preserves these connections across otherwise separate mentorship groups without assigning a single parent or an inferred generation. The current retained dataset has no directed cycles.
